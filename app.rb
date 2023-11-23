@@ -49,8 +49,8 @@ get("/dice/5/4") do
 
     @rolls.push(die)
   end
-
-  erb(:five_four)
+#something I deleted here
+  
 end
 
 get("/dice/:alice/:sidess") do
